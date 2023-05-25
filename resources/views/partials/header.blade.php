@@ -8,10 +8,10 @@
             <div class="nav">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('home') }}">Home</a>
+                        <a class="nav-link text-bg-dark" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('movies') }}">Movies</a>
+                        <a class="nav-link text-bg-dark" href="{{ route('movies') }}">Movies</a>
                     </li>
                 </ul>
             </div>
@@ -21,5 +21,6 @@
 <style scoped>
     header {
         height: 100px;
+        background-color: rgb(49, 49, 49);
     }
 </style>

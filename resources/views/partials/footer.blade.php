@@ -9,8 +9,6 @@
 footer{
     width: 100%;
     background-color: rgb(22, 22, 22);
-    position: fixed;
-    bottom: 0;
     color: white;
 }
 </style>
