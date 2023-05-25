@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Guest;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Movie;
 
 class PageController extends Controller
 {
@@ -13,6 +14,7 @@ class PageController extends Controller
     }
     public function movies()
     {
+ 
         return view('movies');
     }
 }
